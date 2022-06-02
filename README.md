@@ -46,6 +46,14 @@ Adiciona o arquivo `.git`. Esse comando só deve ser dado caso o arquivo não ex
 $ git init
 ```
 
+### Status
+
+Comando que mostra a situação (ou status) dos arquivos no branch atual. Se tiver arquivos modificados, deletados, novos ou com conflitos ele irá mostrar quais são.
+
+```shellscript
+$ git status
+```
+
 ### Add
 
 Esse comando adiciona um ou mais arquivos para ser registrado no comando `commit`.
